@@ -11,11 +11,106 @@
 
     <link rel="stylesheet" href="./css/output.css">
 
+    <!-- poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- shadow light font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <!-- fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
-<body>
+<body class="font-poppins bg-off-white">
 
-    <h1 class="text-5xl text-blue-600 font-extrabold">Hello, I am felix</h1>
+    <!-- header - lg -->
+    <header class="w-full h-16 sticky top-0 z-50 bg-off-white hidden min-[1000px]:flex items-center border-b border-black/20">
+        <div class="container flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-12 h-12 rounded-full overflow-hidden">
+                    <img 
+                        src="./images/gozie.jpg" 
+                        alt="Chiagozie uchenwoke's image"
+                        class="w-full h-full object-cover"
+                    >
+                </div>
+
+                <p class="capitalize font-bold text-xl ">Chiagozie</p>
+            </div>
+
+            <nav class="flex items-center">
+                <ul class="flex gap-8 items-center">
+                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">about</a></li>
+                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">project</a></li>
+                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">services</a></li>
+                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header class="w-full h-16 border-b border-black/20 flex items-center sticky top-0 z-50 min-[1000px]:hidden bg-off-white">
+        <div class="w-full h-full flex justify-between items-center px-4 relative">
+            <div class="flex items-center gap-2">
+                <div class="w-12 h-12 rounded-full overflow-hidden">
+                    <img 
+                        src="./images/gozie.jpg" 
+                        alt="Chiagozie uchenwoke's image"
+                        class="w-full h-full object-cover"
+                    >
+                </div>
+
+                <p class="capitalize font-bold text-lg ">Chiagozie</p>
+            </div>
+
+            <div>
+                <button class="border border-black/30 py-[0.2rem] px-[0.3rem] text-xl rounded">
+                    <i class="fa-solid fa-bars opacity-75"></i>
+                </button>
+
+                <nav class="absolute right-0 top-full bg-sec/20 border-l border-black/20 shadow-xl px-4 w-full max-w-[15rem] h-[calc(100vh-4rem)] hidden">
+                    <ul class="flex flex-col gap-6 items-center py-12 w-full h-full justify-center">
+                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">about</a></li>
+                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">project</a></li>
+                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">services</a></li>
+                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="w-full">
+        <div class="container flex flex-col gap-8 md:flex-row py-12">
+            <div class="w-full md:w-1/2 flex flex-col gap-4 lg:gap-6 justify-center">
+                <h1 class="text-xl min-[350px]:text-2xl sm:text-2xl lg:text-4xl">
+                    <span class="font-medium">Architectural</span> <span class="font-bold">Philosophy</span></h1>
+
+                <p class="font-shadow-light text-lg lg:text-2xl">
+                    I am a forward-thinking architectural designer with a strong eye for detail and a commitment to innovation. My work blends creativity with practicality, delivering designs that enhance everyday living while reflecting unique client visions.
+                </p>
+
+                <div class="mt-2.5 flex flex-col gap-3 sm:flex-row">
+                    <button class="bg-pri-col text-white-col py-2.5 px-6 capitalize font-medium cursor-pointer rounded-md hover:bg-sec duration-200">view project</button>
+
+                    <button class="border border-pri-col py-2.5 px-6 capitalize font-medium cursor-pointer rounded-md hover:bg-sec/70 duration-200 hover:text-white-col">get in touch</button>
+                </div>
+            </div>
+
+            <div class="h-full max-h-[40rem] md:w-1/2">
+                <img 
+                    src="./images/hero_image.jpg" 
+                    alt="Image showing a building designed with Archi-CAD"
+                    class="rounded-md w-full h-full object-cover"
+                >
+            </div>
+        </div>
+    </section>
 
 </body>
 

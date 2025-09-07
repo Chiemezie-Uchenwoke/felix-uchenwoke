@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-    --color-pri: ;
+    --color-off-white: #F8F3CE;
+    --color-pri-col: #57564F;
+    --color-sec: #7A7A73;
+    --color-acc: #DDDAD0;
+    --color-dark: #1a1a1a;
+    --color-white-col: #f6f6f6;
+    --font-shadow-light: "Shadows Into Light", cursive;
+    --font-poppins: "Poppins", sans-serif;
+}
+
+.container{
+    @apply w-[95%] lg:w-[88%] mx-auto
 }
