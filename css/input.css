@@ -12,5 +12,5 @@
 }
 
 .container{
-    @apply w-[95%] lg:w-[88%] mx-auto
+    @apply w-[95%] lg:w-[88%] 2xl:w-[70%] mx-auto
 }
