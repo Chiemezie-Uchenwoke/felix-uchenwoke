@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth scroll-pt-16">
 
 <head>
 
@@ -46,14 +46,14 @@
             <nav class="flex items-center">
                 <ul class="flex gap-8 items-center">
                     <li><a href="#about" class="capitalize hover:text-pri-col duration-200">about</a></li>
-                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">project</a></li>
-                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">services</a></li>
-                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">contact</a></li>
+                    <li><a href="#projects" class="capitalize hover:text-pri-col duration-200">project</a></li>
+                    <li><a href="#contact" class="capitalize hover:text-pri-col duration-200">contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- header - sm -->
     <header class="w-full h-16 border-b border-black/20 flex items-center sticky top-0 z-50 min-[1000px]:hidden bg-off-white">
         <div class="w-full h-full flex justify-between items-center px-4 relative">
             <div class="flex items-center gap-2">
@@ -75,16 +75,16 @@
 
                 <nav class="absolute right-0 top-full bg-sec/20 border-l border-black/20 shadow-xl px-4 w-full max-w-[15rem] h-[calc(100vh-4rem)] hidden">
                     <ul class="flex flex-col gap-6 items-center py-12 w-full h-full justify-center">
-                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">about</a></li>
-                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">project</a></li>
-                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">services</a></li>
-                        <li><a href="#" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">contact</a></li>
+                        <li><a href="#about" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">about</a></li>
+                        <li><a href="#projects" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">project</a></li>
+                        <li><a href="#services" class="capitalize hover:text-pri-col duration-200 text-dark font-medium text-base">contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
+    <!-- hero -->
     <section class="w-full">
         <div class="container flex flex-col gap-8 md:flex-row py-12">
             <div class="w-full md:w-1/2 flex flex-col gap-4 lg:gap-6 justify-center">
@@ -122,7 +122,7 @@
     </section>
 
     <!-- projects -->
-    <section class="mt-20 container flex flex-col items-center gap-8 lg:gap-10">
+    <section class="mt-20 container flex flex-col items-center gap-8 lg:gap-10" id="projects">
         <div class="flex flex-col gap-2">
             <h2 class="capitalize font-medium text-xl lg:text-3xl text-center">featured projects</h2>
             <p class="opacity-75 w-full max-w-[40rem] text-center text-sm lg:text-base">
@@ -232,7 +232,7 @@
     </section>
 
     <!-- contact -->
-    <section class="mt-20 container flex flex-col gap-8">
+    <section class="mt-20 container flex flex-col gap-8" id="contact">
         <h2 class="capitalize font-medium text-xl lg:text-3xl text-center">let's work together</h2>
         <div class="flex flex-col gap-3 sm:gap-10 w-full min-[400px]:flex-row">
             <a href="mailto:uchenwokefelix60@gmail.com" class="bg-pri-col text-white-col py-3 shadow-lg hover:bg-pri-col/90 duration-200 text-base lg:text-xl px-4 rounded-xl capitalize font-medium inline-block w-full text-center">email</a>
