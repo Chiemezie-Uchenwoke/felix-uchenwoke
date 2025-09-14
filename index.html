@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
 
@@ -45,7 +45,7 @@
 
             <nav class="flex items-center">
                 <ul class="flex gap-8 items-center">
-                    <li><a href="#" class="capitalize hover:text-pri-col duration-200">about</a></li>
+                    <li><a href="#about" class="capitalize hover:text-pri-col duration-200">about</a></li>
                     <li><a href="#" class="capitalize hover:text-pri-col duration-200">project</a></li>
                     <li><a href="#" class="capitalize hover:text-pri-col duration-200">services</a></li>
                     <li><a href="#" class="capitalize hover:text-pri-col duration-200">contact</a></li>
@@ -89,16 +89,16 @@
         <div class="container flex flex-col gap-8 md:flex-row py-12">
             <div class="w-full md:w-1/2 flex flex-col gap-4 lg:gap-6 justify-center">
                 <h1 class="text-xl min-[350px]:text-2xl sm:text-2xl lg:text-4xl">
-                    <span class="font-medium">Architectural</span> <span class="font-bold">Philosophy</span></h1>
+                    <span class="capitalize font-bold">Chiagozie Uchenwoke</h1>
 
-                <p class="font-shadow-light text-lg lg:text-2xl">
+                <p class="text-sm lg:text-[1.1rem] opacity-75">
                     I am a forward-thinking architectural designer with a strong eye for detail and a commitment to innovation. My work blends creativity with practicality, delivering designs that enhance everyday living while reflecting unique client visions.
                 </p>
 
                 <div class="mt-2.5 flex flex-col gap-3 sm:flex-row">
-                    <button class="bg-pri-col text-white-col py-2.5 px-6 capitalize font-medium cursor-pointer rounded-md hover:bg-sec duration-200">view project</button>
+                    <button class="bg-pri-col text-white-col py-2.5 px-6 capitalize font-semibold cursor-pointer rounded-md hover:bg-sec duration-200">view project</button>
 
-                    <button class="border border-pri-col py-2.5 px-6 capitalize font-medium cursor-pointer rounded-md hover:bg-sec/70 duration-200 hover:text-white-col">get in touch</button>
+                    <button class="border border-pri-col py-2.5 px-6 capitalize font-semibold cursor-pointer rounded-md hover:bg-sec/70 duration-200 hover:text-white-col">get in touch</button>
                 </div>
             </div>
 
@@ -106,11 +106,151 @@
                 <img 
                     src="./images/hero_image.jpg" 
                     alt="Image showing a building designed with Archi-CAD"
-                    class="rounded-md w-full h-full object-cover"
+                    class="rounded-2xl shadow-xl w-full h-full object-cover"
                 >
             </div>
         </div>
     </section>
+
+    <!-- about me -->
+    <section class="container flex flex-col items-center gap-6 mt-12" id="about">
+        <h2 class="capitalize font-medium text-xl lg:text-3xl">about me</h2>
+        <p class="text-justify min-[630px]:text-center text-sm md:text-base opacity-75 w-full max-w-[50rem] leading-7">
+            I am a trained architect with a degree in Architecture from Federal University of Technology Owerri(F.U.T.O). Over the past 4years, I have gained valuable experience working on a wide range of projects, including residential, commercial, and mixed-use developments. My expertise lies in blending creative design concepts with practical solutions to deliver functional, sustainable, and visually striking spaces.
+
+        </p>
+    </section>
+
+    <!-- projects -->
+    <section class="mt-20 container flex flex-col items-center gap-8 lg:gap-10">
+        <div class="flex flex-col gap-2">
+            <h2 class="capitalize font-medium text-xl lg:text-3xl text-center">featured projects</h2>
+            <p class="opacity-75 w-full max-w-[40rem] text-center text-sm lg:text-base">
+                A showcase of my recent architectural works that demonstrate innovation and exceptional design quality.
+            </p>
+        </div>
+        
+        <div class="w-full flex flex-col gap-12">
+            <div class="grid grid-cols-1 md:grid-cols-[0.45fr_0.55fr] gap-6 md:gap-8 lg:gap-12">
+                <div class="h-[18rem] rounded-xl overflow-hidden">
+                    <img 
+                        src="./images/bungalow.jpg" 
+                        alt="image of duplex project"
+                        class="rounded-xl w-full h-full object-cover shadow-lg hover:scale-110 duration-300"
+                    >
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="font-semibold text-base md:text-xl capitalize">4 bedroom bungalow</h3>
+
+                    <p class="text-sm min-[900px]:text-base text-justify opacity-75">
+                        The bungalow features a spacious living room, dining area, fully fitted kitchen with store, and four well-sized bedrooms (including a master en-suite). It includes a guest toilet, front veranda, and provisions for cross ventilation and natural lighting. The layout balances comfort and privacy while maximizing functionality on a single level.
+                    </p>
+
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">residential</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">sustainable design</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">2024</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-[0.45fr_0.55fr] gap-6 md:gap-8 lg:gap-12">
+                <div class="h-[18rem] rounded-xl overflow-hidden">
+                    <img 
+                        src="./images/duplex.jpg" 
+                        alt="image of duplex project"
+                        class="rounded-xl w-full h-full object-cover shadow-lg hover:scale-110 duration-300"
+                    >
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="font-semibold text-base md:text-xl capitalize">6 bedroom duplex</h3>
+
+                    <p class="text-sm min-[900px]:text-base text-justify opacity-75">
+                        The duplex offers six spacious bedrooms, including a master suite with walk-in closet and private bath. The ground floor accommodates a large living room, dining area, fully fitted kitchen with store, guest toilet, and one en-suite guest room. The upper floor houses additional bedrooms, a family lounge, and balconies for relaxation. The design emphasizes modern aesthetics, natural lighting, ventilation, and functional flow, providing both comfort and privacy for the family.
+                    </p>
+
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">residential</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">sustainable design</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">2024</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-[0.45fr_0.55fr] gap-6 md:gap-8 lg:gap-12">
+                <div class="h-[18rem] rounded-xl overflow-hidden">
+                    <img 
+                        src="./images/duplex_7_bed.jpg" 
+                        alt="image of duplex project"
+                        class="rounded-xl w-full h-full object-cover shadow-lg hover:scale-110 duration-300"
+                    >
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="font-semibold text-base md:text-xl capitalize">7 bedroom duplex</h3>
+
+                    <p class="text-sm min-[900px]:text-base text-justify opacity-75">
+                        The duplex is designed to provide luxury and functionality, with three bedrooms on the ground floor and four bedrooms on the upper floor. The ground floor also features a spacious living room, dining area, kitchen with store, guest toilet, and a welcoming entrance porch. The upper floor accommodates the family lounge, master suite, additional bedrooms, and balconies for outdoor relaxation. The layout ensures privacy, smooth circulation, and abundant natural lighting and ventilation, combining modern aesthetics with comfort for a large family.
+                    </p>
+
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">residential</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">sustainable design</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">2024</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-[0.45fr_0.55fr] gap-6 md:gap-8 lg:gap-12">
+                <div class="h-[18rem] rounded-xl overflow-hidden">
+                    <img 
+                        src="./images/water_factory.jpg" 
+                        alt="image of duplex project"
+                        class="rounded-xl w-full h-full object-cover shadow-lg hover:scale-110 duration-300"
+                    >
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="font-semibold text-base md:text-xl capitalize">Water factory</h3>
+
+                    <p class="text-sm min-[900px]:text-base text-justify opacity-75">
+                        A water bottling factory is planned with four main zones: Production area housing water treatment, bottling, and packaging lines; Storage area for raw materials and finished products with direct loading access; Administration section including offices, reception, and meeting spaces; and Staff quarters providing on-site accommodation with basic facilities. The layout ensures hygienic processing, smooth workflow, and efficient distribution.
+                    </p>
+
+                    <div class="flex gap-4 flex-wrap">
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">commercial</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">sustainable design</span>
+                        <span class="bg-sec/15 py-1 px-4 rounded-xl text-xs capitalize font-medium tracking-wide whitespace-nowrap">2024</span>
+                    </div>
+
+                    <button class="capitalize self-start underline cursor-pointer font-medium opacity-75 hover:text-red-400">view plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="mt-20 container flex flex-col gap-8">
+        <h2 class="capitalize font-medium text-xl lg:text-3xl text-center">let's work together</h2>
+        <div class="flex flex-col gap-3 sm:gap-10 w-full min-[400px]:flex-row">
+            <a href="mailto:uchenwokefelix60@gmail.com" class="bg-pri-col text-white-col py-3 shadow-lg hover:bg-pri-col/90 duration-200 text-base lg:text-xl px-4 rounded-xl capitalize font-medium inline-block w-full text-center">email</a>
+            <a href="tel:+2349029006189" class="bg-pri-col text-white-col py-3 shadow-lg hover:bg-pri-col/90 duration-200 text-base lg:text-xl px-4 rounded-xl capitalize font-medium inline-block w-full text-center">phone</a>
+        </div>
+    </section>
+
+    <footer class="mt-20 bg-pri-col py-16">
+        <div class="container flex flex-col gap-2 items-center">
+            <p class="text-white-col/60">
+                Chiagozie Uchenwoke
+            </p>
+
+            <p class="text-white-col/80 capitalize">
+                © all rights reserved 2025
+            </p>
+        </div>
+    </footer>
 
 </body>
 
